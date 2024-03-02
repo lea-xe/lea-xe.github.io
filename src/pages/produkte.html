@@ -2,7 +2,7 @@
 <html lang="de">
   <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="./src/output.css" />
+    <link rel="stylesheet" href="/src/output.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Begegnung mit Tier und Natur</title>
   </head>
@@ -12,7 +12,7 @@
         <nav
           class="relative px-5 md:px-10 py-4 flex justify-between items-center"
         >
-          <a class="leading-none" href="#">
+          <a class="leading-none" href="../../index.html">
             <img
               src="/src/assets/images/tier_und_natur_logo_beige.svg"
               class="w-16 h-16 md:w-24 md:h-24"
@@ -36,8 +36,8 @@
           >
             <li>
               <a
-                class="text-xl border-b-2 border-gray hover:border-b-2 hover:border-gray transition duration-200"
-                href="#"
+                class="text-xl hover:border-b-2 hover:border-gray transition duration-200"
+                href="../../index.html"
                 >Home</a
               >
             </li>
@@ -64,7 +64,7 @@
                 <div role="none">
                   <!-- Dropdown content here -->
                   <a
-                    href="./src/pages/about.html"
+                    href="/src/pages/about.html"
                     class="block px-4 py-2 text-base hover:bg-beige transition duration-200 rounded-lg"
                     role="menuitem"
                     tabindex="-1"
@@ -128,7 +128,7 @@
             </li>
             <li>
               <a
-                class="text-xl hover:border-b-2 hover:border-gray transition duration-200"
+                class="text-xl hover:border-b-2 hover:border-gray transition duration-200 border-b-2 border-gray"
                 href="/src/pages/produkte.html"
                 >Produkte</a
               >
@@ -149,7 +149,7 @@
             class="fixed top-0 left-0 bottom-0 flex flex-col w-4/6 max-w-sm py-6 px-6 bg-light border-r overflow-y-auto"
           >
             <div class="flex items-center mb-8">
-              <a class="mr-auto leading-none" href="#">
+              <a class="mr-auto leading-none" href="../../index.html">
                 <img
                   src="/src/assets/images/tier_und_natur_logo_beige.svg"
                   class="w-24 h-24"
@@ -176,7 +176,7 @@
             <div>
               <ul>
                 <li class="mb-1">
-                  <a class="block p-4 text-xl font-semibold" href="#">Home</a>
+                  <a class="block p-4 text-xl" href="/index.html">Home</a>
                 </li>
                 <li class="mb-1">
                   <a class="block p-4 text-xl hover:font-semibold" href="#"
@@ -186,8 +186,8 @@
                 <li class="mb-1">
                   <div>
                     <a
-                      href="./src/pages/about.html"
-                      class="block px-8 py-2 text-base hover:font-semibold"
+                      href="/src/pages/about.html"
+                      class="block px-8 py-2 text-base hover:font-semibold font-semibold"
                       >Über Uns</a
                     >
                     <a
@@ -225,7 +225,7 @@
                 </li>
                 <li class="mb-1">
                   <a
-                    class="block p-4 text-xl hover:font-semibold"
+                    class="block p-4 text-xl hover:font-semibold font-semibold"
                     href="/src/pages/produkte.html"
                     >Produkte</a
                   >
@@ -245,66 +245,67 @@
         </div>
         <section class="header-section">
           <div class="relative mx-auto w-full px-5 py-10 md:px-10 lg:py-16">
-            <div
-              class="lg:grid items-center justify-items-start lg:grid-cols-11"
-            >
+            <div class="lg:grid lg:grid-cols-2 gap-20">
               <div
-                class="flex flex-col lg:col-span-6 items-center lg:items-start"
+                class="flex flex-col lg:justify-end items-center lg:items-start order-2"
               >
                 <h1
-                  class="lg:mb-4 text-4xl lg:text-6xl uppercase text-center lg:text-left"
+                  class="max-w-md text-4xl lg:text-5xl text-center lg:text-left"
                 >
-                  Begegung mit <br /><span class="block mt-4 md:mt-8 xl:ml-40"
-                    >Tier & Natur</span
-                  >
+                  Lama /Alpaka-Woll-Produkte von unseren Tieren
                 </h1>
-                <p
-                  class="mt-10 lg:mt-20 max-w-md text-sm sm:text-lg text-center lg:text-left"
-                >
-                  Sei herzlich willkommen!<br />Wir – Rosa & Wolfgang & die
-                  Tiere stehen mit unserer ganzen Kraft und Liebe für ein
-                  SINN-volles Wirtschaften in einem klaren Miteinander. Die
-                  Kleinheit und Überschaubarkeit unserer Wiesen, Wälder, Garten
-                  etc. ist genau passend, um wertschätzend mit Boden, Früchten
-                  und Tieren zu arbeiten. Gerne teilen wir unseren Lebensraum
-                  mit Menschen, die nach Klarheit suchen und ihre Lasten der
-                  Natur übergeben wollen.<br />Komm auf uns zu, reden wir….
-                </p>
+                <div class="relative flex items-center space-x-10">
+                  <p
+                    class="mt-10 lg:mt-10 max-w-md text-sm sm:text-lg text-center lg:text-left"
+                  >
+                    Es ist jedes Jahr im Frühling ein wunderbarer Moment – wenn
+                    unsere Lamas ihre Wolle abgeben. Daraus entstehen reine
+                    Natur-Produkte, die wertvoller nicht sein könnten. Alle
+                    Produkte sind handgefertigt in Österreich, aus Händen von
+                    Gleichgesinnten, naturbewußten Menschen.
+                  </p>
+                  <div
+                    class="mt-10 hidden w-72 h-auto lg:flex lg:items-center lg:justify-center"
+                  >
+                    <a href="#hof" class="relative">
+                      <img
+                        id="scroll-item"
+                        class="scroll-rotate hover-rotate w-20 h-auto"
+                        src="../assets/images/arrow_text.svg"
+                        alt="Pfeil
+                      Text"
+                      />
+                      <img
+                        class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 rotate-90 w-10 h-20"
+                        src="../assets/images/arrow_right.svg"
+                        alt=""
+                      />
+                    </a>
+                  </div>
+                </div>
               </div>
-              <!-- Hero Image -->
               <div
-                class="col-end-13 col-span-5 flex items-end lg:h-full lg:w-full mt-10 lg:mt-0 justify-center lg:justify-start"
+                class="relative lg:ml-14 mt-20 lg:mt-0 flex flex-col items-center"
               >
-                <img
-                  src="./src/assets/images/hero_lama.jpg"
-                  alt="Lama"
-                  class="lg:h-[600px] w-full max-w-[400px] lg:max-w-none h-auto rounded-t-full object-cover"
-                />
+                <div class="relative">
+                  <img
+                    class="hidden lg:block absolute -bottom-14 -left-14 -rotate-[30deg] w-20 h-auto"
+                    src="../assets/images/leaf_2.svg"
+                    alt="Blume"
+                  />
+                  <img
+                    class="h-[300px] lg:h-[450px] w-[450px] lg:rounded-tr-[200px] object-cover"
+                    src="../assets/images/content/produkte (2).JPG"
+                    alt="Der Hof"
+                  />
+                </div>
               </div>
             </div>
-            <div class="hidden lg:block absolute left-[45%] top-[60%]">
-              <a href="#about" class="relative">
-                <img
-                  id="scroll-item"
-                  class="scroll-rotate hover-rotate"
-                  src="./src/assets/images/arrow_text.svg"
-                  alt="Pfeil Text"
-                />
-                <img
-                  class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 rotate-90 w-14"
-                  src="./src/assets/images/arrow_right.svg"
-                  alt=""
-                />
-              </a>
-            </div>
-            <div
-              class="absolute w-200 h-200 -right-10 top-10 bg-beige rounded-full blur-2xl opacity-80 -z-40"
-            ></div>
           </div>
         </section>
       </header>
       <main>
-        <section id="quote" class="mt-52">
+        <section id="quote" class="mt-32 lg:mt-52">
           <div
             class="w-full py-5 border-y-2 border-dark flex justify-center items-center"
           >
@@ -315,138 +316,96 @@
             </p>
           </div>
         </section>
-        <section id="about" class="mt-52">
-          <div
-            class="rounded-t-full bg-gradient-to-b from-beige w-full h-[1900px] flex flex-col items-center px-5 md:px-10"
-          >
-            <div class="mt-52 lg:mt-72 flex flex-col items-center">
-              <p
-                class="uppercase tracking-wider text-base lg:text-lg font-semibold text-center mb-2"
-              >
-                Wer wir sind
-              </p>
-              <h2 class="text-2xl lg:text-4xl text-center max-w-md">
-                Herzensprojekt in den Nockbergen
-              </h2>
-              <p class="text-sm sm:text-lg text-center max-w-lg mt-8">
-                Wir, Rosa & Wolfgang Madreiter, haben unser Leben völlig neu
-                aufgestellt. 2022 sind wir aus dem Pinzgau (Salzburg) nach
-                Kärnten, in die Region der Nockberge, nahe am Ossiacher See
-                übersiedelt. Gemeinsam mit 8 Lamas, 2 Mulis, 2 Katzen und einem
-                Haufen Bienen starteten wir hier in Himmelberg in unser
-                Herzensprojekt.<br /><br />
-                Unsere langjährigen Erfahrungen und Erkenntnisse aus ganz
-                anderen Lebensbereichen (Schule & Wirtschaft) fließen genauso in
-                unser Tun hinein, wie all das Neue, das uns die Landwirtschaft
-                zeigt.
-              </p>
-              <a
-                href="#"
-                class="flex justify-center border rounded-full px-6 py-2 mt-8 group"
-              >
-                <p class="font-semibold text-lg mr-4">mehr</p>
-                <img
-                  src="./src/assets/images/arrow_right.svg"
-                  class="w-12 transition-transform transform group-hover:translate-x-2"
-                  alt="Pfeil Rechts"
-                />
-              </a>
-            </div>
-            <div
-              class="grid grid-cols-2 sm:grid-cols-4 h-[37rem] mt-32 sm:mt-52 gap-5 max-w-4xl"
-            >
-              <div class="relative col-span-2 justify-self-center sm:order-2">
-                <img
-                  class="object-cover w-96 h-128 rounded-t-full"
-                  src="./src/assets/images/content/hof_1-min.jpg"
-                  alt="Der Hof"
-                />
-                <img
-                  class="absolute top-0 -right-20 w-32 h-auto"
-                  src="./src/assets/images/leaf_1.svg"
-                  alt="Blatt Dekoration"
-                />
-                <img
-                  class="absolute bottom-20 -left-10 w-20 h-auto"
-                  src="./src/assets/images/leaf_2.svg"
-                  alt="Blatt Dekoration"
-                />
+        <section id="produkte">
+          <div class="mt-52 lg:mt-72 flex flex-col items-center">
+            <div class="max-w-2xl">
+              <div class="flex flex-col justify-center items-center">
+                <p
+                  class="uppercase tracking-wider text-base lg:text-lg font-semibold text-center mb-2"
+                >
+                  Direkt vom Hof
+                </p>
+                <h2 class="text-2xl lg:text-4xl text-center max-w-md">
+                  Unsere Produkte
+                </h2>
               </div>
-              <img
-                class="rounded-tl-[100px] rounded-br-[100px] h-72 w-52 object-cover mt-14 sm:mt-28 justify-self-end sm:order-1"
-                src="./src/assets/images/content/Lama2-min.jpg"
-                alt="Lama Fütterung"
-              />
-              <img
-                class="rounded-tr-[100px] rounded-bl-[100px] h-72 w-52 object-cover justify-self-start self-end sm:order-3"
-                src="./src/assets/images/content/cat-min.JPG"
-                alt="Katze"
-              />
-            </div>
-          </div>
-        </section>
-        <section id="contact">
-          <div
-            class="w-full sm:w-5/6 bg-beige sm:rounded-r-full flex flex-col justify-center"
-          >
-            <div class="relative px-5 md:px-10 my-20">
-              <h2 class="text-2xl lg:text-4xl">Komm mit uns in Kontakt!</h2>
-              <p class="text-sm sm:text-lg mt-2">
-                Wir freuen uns auf deine Anfrage.
-              </p>
-              <img
-                class="hidden sm:block absolute w-24 h-auto top-0 left-[20rem] lg:left-[29rem]"
-                src="./src/assets/images/leaf_3.svg"
-                alt="Blatt"
-              />
-              <ul class="mt-20 space-y-10">
-                <li>
-                  <a href="#" class="flex items-center hover:font-bold">
-                    <img
-                      class="w-12 h-auto"
-                      src="./src/assets/images/location.svg"
-                      alt="Standort Icon"
-                    />
-                    <p class="ml-10 text-sm sm:text-lg">
-                      Werschling 34 , 9562 Himmelberg
-                    </p>
-                  </a>
-                </li>
-                <li>
-                  <a href="#" class="flex items-center hover:font-bold">
-                    <img
-                      class="w-12 h-auto"
-                      src="./src/assets/images/phone.svg"
-                      alt="Telefon Icon"
-                    />
-                    <p class="ml-10 text-sm sm:text-lg">
-                      Tel. +43 664 7518 3368
-                    </p>
-                  </a>
-                </li>
-                <li>
-                  <a href="#" class="flex items-center hover:font-bold">
-                    <img
-                      class="w-12 h-auto"
-                      src="./src/assets/images/mail.svg"
-                      alt="Email Icon"
-                    />
-                    <p class="ml-10 text-sm sm:text-lg">
-                      rosa.madreiter@gmx.at
-                    </p>
-                  </a>
-                </li>
-              </ul>
-              <img
-                class="hidden md:block absolute w-60 h-96 object-cover -right-10 top-0 rounded-tl-[100px] rounded-br-[100px]"
-                src="./src/assets/images/content/boy_with_lama-min.JPG"
-                alt="Junge mit Lama"
-              />
+              <div
+                class="relative lg:grid lg:grid-cols-2 gap-20 mt-10 md:mt-20 px-5 md:px-10"
+              >
+                <div
+                  class="flex flex-col items-center lg:items-end mb-20 lg:mb-0"
+                >
+                  <img
+                    class="lg:rounded-tr-[150px] lg:rounded-bl-[150px] h-72 w-72 object-cover"
+                    src="../assets/images/content/Sitzauflage1-min.JPG"
+                    alt="Sitzauflage"
+                  />
+                  <h3 class="lg:text-right text-center mt-2">
+                    Lama-Filz Sitzauflagen 40x40
+                  </h3>
+                  <p class="lg:text-right text-center">
+                    jede Wunschgröße ohne Aufpreis möglich, xy €
+                  </p>
+                </div>
+                <div
+                  class="flex flex-col items-center lg:items-start mb-20 lg:mb-0"
+                >
+                  <img
+                    class="lg:rounded-tl-[150px] lg:rounded-br-[150px] h-72 w-72 object-cover"
+                    src="../assets/images/content/Einlagen-min.JPG"
+                    alt="Einlagen"
+                  />
+                  <h3 class="mt-2 lg:text-left text-center">
+                    Lama-Filz-Schuheinlagen
+                  </h3>
+                  <p class="lg:text-left text-center">
+                    wärmer und natürlicher geht´s nicht, kompostierbar, alle
+                    Größen xy €
+                  </p>
+                </div>
+                <img
+                  class="hidden lg:block absolute top-[37%] left-[28.5%]"
+                  src="../assets/images/flower_2.svg"
+                  alt="Flower"
+                />
+                <div
+                  class="flex flex-col items-center lg:items-end mb-20 lg:mb-0"
+                >
+                  <img
+                    class="lg:rounded-tr-[150px] lg:rounded-bl-[150px] h-72 w-72 object-cover"
+                    src="../assets/images/content/Seife1-min.JPG"
+                    alt="Seifen"
+                  />
+                  <h3 class="lg:text-right text-center mt-2">
+                    Lama-Keratin-Seife
+                  </h3>
+                  <p class="lg:text-right text-center">
+                    mit versch. Ätherischen Ölen (Ringelblume, Rose, Lavendel,
+                    Kräuter…), für Haut-Allergiker oder empfindliche Haut bieten
+                    wir die „Lama- Zero“ Seife an, die zusätzlich noch frei von
+                    Duftstoffen ist<br />90g € 9,50 50g € 4,80
+                  </p>
+                </div>
+                <div class="flex flex-col items-center lg:items-start">
+                  <img
+                    class="lg:rounded-tl-[150px] lg:rounded-br-[150px] h-72 w-72 object-cover"
+                    src="../assets/images/content/Bettdecken-min.jpg"
+                    alt="Bettdecken"
+                  />
+                  <h3 class="mt-2 lg:text-left text-center">Lama-Bettdecken</h3>
+                  <p class="lg:text-left text-center">
+                    auf Anfrage u Bestellung: Jeder darf „seine“ Decke kriegen;
+                    von kühl bis besonders warm, in Standardgröße oder
+                    Wunschgröße ohne Aufpreis Das Lamavlies ist umhüllt und
+                    abgesteppt mit traumhafter Bio-Baumwolle
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </section>
       </main>
-      <footer class="mt-72 border-t-2 border-dark p-5 md:p-10">
+      <footer class="mt-52 border-t-2 border-dark p-5 md:p-10">
         <div class="grid grid-cols-1 sm:grid-cols-3">
           <div class="text-center sm:text-left">
             <h3 class="text-xl lg:text-2xl mb-4">Begegnung mit Tier & Natur</h3>
@@ -467,7 +426,7 @@
                 <a class="hover:font-bold" href="/index.html">Home</a>
               </li>
               <li>
-                <a class="hover:font-bold" href="./src/pages/about.html"
+                <a class="hover:font-bold" href="/src/pages/about.html"
                   >Über Uns</a
                 >
               </li>
