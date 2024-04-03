@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="/src/output.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tier & Natur</title>
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/src/assets/images/favicons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/src/assets/images/favicons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/src/assets/images/favicons/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/src/assets/images/favicons/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="/src/assets/images/favicons/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <link rel="shortcut icon" href="/src/assets/images/favicons/favicon.ico" />
+    <meta name="msapplication-TileColor" content="#00aba9" />
+    <meta
+      name="msapplication-config"
+      content="/src/assets/images/favicons/browserconfig.xml"
+    />
+    <meta name="theme-color" content="#ffffff" />
+    <!-- Meta Information -->
+    <meta name="title" content="Begegnung mit Tier & Natur" />
+    <meta
+      name="description"
+      content="Wir – Rosa & Wolfgang & die
+                  Tiere stehen mit unserer ganzen Kraft und Liebe für ein
+                  SINN-volles Wirtschaften in einem klaren Miteinander."
+    />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://tierundnatur.com" />
+    <meta property="og:title" content="Begegnung mit Tier & Natur" />
+    <meta
+      property="og:description"
+      content="Wir – Rosa & Wolfgang & die
+                  Tiere stehen mit unserer ganzen Kraft und Liebe für ein
+                  SINN-volles Wirtschaften in einem klaren Miteinander."
+    />
+    <meta property="og:image" content="/src/assets/images/meta_img.png" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://tierundnatur.com" />
+    <meta property="twitter:title" content="Begegnung mit Tier & Natur" />
+    <meta
+      property="twitter:description"
+      content="Wir – Rosa & Wolfgang & die
+                  Tiere stehen mit unserer ganzen Kraft und Liebe für ein
+                  SINN-volles Wirtschaften in einem klaren Miteinander."
+    />
+    <meta property="twitter:image" content="/src/assets/images/meta_img.png" />
+
+    <!-- Meta Tags Generated with https://metatags.io -->
+  </head>
+  <body class="bg-light">
+    <header class="my-2 max-w-screen-2xl mx-auto">
+      <nav
+        class="relative px-5 md:px-10 py-4 flex justify-between items-center"
+      >
+        <a class="leading-none" href="/index.html">
+          <img
+            src="/src/assets/images/tier_und_natur_logo_beige.svg"
+            class="w-16 h-16 md:w-24 md:h-24"
+            alt="Tier und Natur Logo"
+          />
+        </a>
+        <div class="lg:hidden">
+          <button class="navbar-burger flex items-center p-3">
+            <svg
+              class="block h-4 w-4 fill-current"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title>Mobile menu</title>
+              <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+            </svg>
+          </button>
+        </div>
+        <ul
+          class="hidden absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 lg:flex lg:mx-auto lg:items-center lg:w-auto lg:space-x-12 xl:space-x-20"
+        >
+          <li>
+            <a
+              class="text-xl border-b-2 border-gray hover:border-b-2 hover:border-gray transition duration-200"
+              href="/index.html"
+              >Home</a
+            >
+          </li>
+          <li class="relative group">
+            <div
+              class="text-xl text-dark cursor-pointer hover:border-b-2 hover:border-gray flex items-center text-nowrap"
+            >
+              Der Hof
+              <svg
+                class="h-5 w-5 text-gray ml-1"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </div>
+            <div
+              class="absolute hidden mt-2 w-40 origin-top-right rounded-lg bg-light shadow-lg focus:outline-none"
+            >
+              <div role="none">
+                <!-- Dropdown content here -->
+                <a
+                  href="/src/pages/about.html"
+                  class="text-dark block px-4 py-2 text-base hover:bg-beige rounded-lg"
+                  role="menuitem"
+                  tabindex="-1"
+                  >Über Uns</a
+                >
+                <a
+                  href="/src/pages/tiere.html"
+                  class="text-dark block px-4 py-2 text-base hover:bg-beige rounded-lg"
+                  role="menuitem"
+                  tabindex="-1"
+                  >Unsere Tiere</a
+                >
+              </div>
+            </div>
+          </li>
+          <li>
+            <a
+              class="text-xl hover:border-b-2 hover:border-gray transition duration-200 text-nowrap"
+              href="/src/pages/angebote.html"
+              >Unsere Angebote</a
+            >
+          </li>
+          <li>
+            <a
+              class="text-xl hover:border-b-2 hover:border-gray transition duration-200"
+              href="/src/pages/energetik.html"
+              >Energiearbeit</a
+            >
+          </li>
+          <li>
+            <a
+              class="text-xl hover:border-b-2 hover:border-gray transition duration-200"
+              href="/src/pages/produkte.html"
+              >Produkte</a
+            >
+          </li>
+        </ul>
+        <a
+          class="hidden lg:inline-block py-1 px-6 border-2 border-gray rounded-full hover:bg-beige text-xl transition duration-200"
+          href="/index.html#contact"
+          >Kontakt</a
+        >
+      </nav>
+      <!-- Mobile Menu -->
+      <div class="navbar-menu relative z-50 hidden">
+        <div class="navbar-backdrop fixed inset-0 bg-gray-800 opacity-25"></div>
+        <nav
+          class="fixed top-0 left-0 bottom-0 flex flex-col w-4/6 max-w-sm py-6 px-6 bg-light border-r overflow-y-auto"
+        >
+          <div class="flex items-center mb-8">
+            <a class="mr-auto leading-none" href="/index.html">
+              <img
+                src="/src/assets/images/tier_und_natur_logo_beige.svg"
+                class="w-24 h-24"
+                alt="Tier und Natur Logo"
+              />
+            </a>
+            <button class="navbar-close">
+              <svg
+                class="h-6 w-6 cursor-pointer hover:text-gray-500"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M6 18L18 6M6 6l12 12"
+                ></path>
+              </svg>
+            </button>
+          </div>
+          <div>
+            <ul>
+              <li class="mb-1">
+                <a class="block p-4 text-xl font-semibold" href="/index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="mb-1">
+                <a
+                  href="/src/pages/about.html"
+                  class="block p-4 text-xl hover:font-semibold"
+                  >Über Uns</a
+                >
+              </li>
+              <li class="mb-1">
+                <a
+                  href="/src/pages/tiere.html"
+                  class="block p-4 text-xl hover:font-semibold"
+                  >Unsere Tiere</a
+                >
+              </li>
+              <li class="mb-1">
+                <a
+                  class="block p-4 text-xl hover:font-semibold"
+                  href="/src/pages/angebote.html"
+                  >Unsere Angebote</a
+                >
+              </li>
+              <li class="mb-1">
+                <a
+                  class="block p-4 text-xl hover:font-semibold"
+                  href="/src/pages/energetik.html"
+                  >Energiearbeit</a
+                >
+              </li>
+              <li class="mb-1">
+                <a
+                  class="block p-4 text-xl hover:font-semibold"
+                  href="/src/pages/produkte.html"
+                  >Produkte</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="mt-auto">
+            <div class="pt-6">
+              <a
+                class="block py-1 px-6 leading-loose text-center border-2 border-gray rounded-full hover:bg-beige text-xl transition duration-200"
+                href="/index.html#contact"
+                >Kontakt</a
+              >
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <div class="max-w-screen-xl lg:mx-auto mt-20 ml-10 mr-10">
+      <h3 class="text-2xl lg:text-4xl text-center">
+        Erklärung zur Informationspflicht
+      </h3>
+      <br />
+      <h3 class="text-xl lg:text-2xl mb-4 mt-10">Datenschutzerklärung</h3>
+      <p>
+        In folgender Datenschutzerklärung informieren wir Sie über die
+        wichtigsten Aspekte der Datenverarbeitung im Rahmen unserer Webseite.
+        Wir erheben und verarbeiten personenbezogene Daten nur auf Grundlage der
+        gesetzlichen Bestimmungen (Datenschutzgrundverordnung,
+        Telekommunikationsgesetz 2003).
+      </p>
+      <p>
+        Sobald Sie als Benutzer auf unsere Webseite zugreifen oder diese
+        besuchen wird Ihre IP-Adresse, Beginn sowie Beginn und Ende der Sitzung
+        erfasst. Dies ist technisch bedingt und stellt somit ein berechtigtes
+        Interesse iSv Art 6 Abs 1 lit f DSGVO.
+      </p>
+      <h5 class="text-xl lg:text-2xl mb-4 mt-10">Kontakt mit uns</h5>
+      <p></p>
+      <p>
+        Wenn Sie uns, entweder über unser Kontaktformular auf unserer Webseite,
+        oder per Email kontaktieren, dann werden die von Ihnen an uns
+        übermittelten Daten zwecks Bearbeitung Ihrer Anfrage oder für den Fall
+        von weiteren Anschlussfragen für sechs Monate bei uns gespeichert. Es
+        erfolgt, ohne Ihre Einwilligung, keine Weitergabe Ihrer übermittelten
+        Daten.
+      </p>
+      <h5 class="text-xl lg:text-2xl mb-4 mt-10">Cookies</h5>
+      <p>
+        Unsere Website verwendet so genannte Cookies. Dabei handelt es sich um
+        kleine Textdateien, die mit Hilfe des Browsers auf Ihrem Endgerät
+        abgelegt werden. Sie richten keinen Schaden an. Wir nutzen Cookies dazu,
+        unser Angebot nutzerfreundlich zu gestalten. Einige Cookies bleiben auf
+        Ihrem Endgerät gespeichert, bis Sie diese löschen. Sie ermöglichen es
+        uns, Ihren Browser beim nächsten Besuch wiederzuerkennen. Wenn Sie dies
+        nicht wünschen, so können Sie Ihren Browser so einrichten, dass er Sie
+        über das Setzen von Cookies informiert und Sie dies nur im Einzelfall
+        erlauben. Bei der Deaktivierung von Cookies kann die Funktionalität
+        unserer Website eingeschränkt sein.
+      </p>
+      <h5 class="text-xl lg:text-2xl mb-4 mt-10">Google Fonts</h5>
+      <p>
+        Unsere Website verwendet Schriftarten von „Google Fonts“. Der
+        Dienstanbieter dieser Funktion ist:
+      </p>
+      <ul>
+        <li>
+          Google Ireland Limited Gordon House, Barrow Street Dublin 4. Ireland
+        </li>
+      </ul>
+      <p>Tel: +353 1 543 1000</p>
+      <p>
+        Beim Aufrufen dieser Webseite lädt Ihr Browser Schriftarten und
+        speichert diese in den Cache. Da Sie, als Besucher der Webseite, Daten
+        des Dienstanbieters empfangen kann Google unter Umständen Cookies auf
+        Ihrem Rechner setzen oder analysieren.
+      </p>
+      <p>
+        Die Nutzung von „Google-Fonts“ dient der Optimierung unserer
+        Dienstleistung und der einheitlichen Darstellung von Inhalten. Dies
+        stellt ein berechtigtes Interesse im Sinne von Art. 6 Abs. 1 lit. f
+        DSGVO dar.
+      </p>
+      <p>
+        Weitere Informationen zu Google Fonts erhalten Sie unter folgendem Link:
+      </p>
+      <ul>
+        <li>
+          <a href="https://developers.google.com/fonts/faq">
+            https://developers.google.com/fonts/faq
+          </a>
+        </li>
+      </ul>
+      <p>
+        Weitere Informationen über den Umgang mit Nutzerdaten von Google können
+        Sie der Datenschutzerklärung entnehmen:
+      </p>
+      <ul>
+        <li>
+          <a href="https://policies.google.com/privacy?hl=de">
+            https://policies.google.com/privacy?hl=de
+          </a>
+          .
+        </li>
+      </ul>
+      <p>
+        Google verarbeitet die Daten auch in den USA, hat sich jedoch dem <br />
+        EU-US Privacy-Shield unterworfen.
+      </p>
+      <p>
+        <a href="https://www.privacyshield.gov/EU-US-Framework">
+          https://www.privacyshield.gov/EU-US-Framework
+        </a>
+      </p>
+      <h5 class="text-xl lg:text-2xl mb-4 mt-10">Server-Log Files</h5>
+      <p>
+        Diese Webseite und der damit verbundene Provider erhebt im Zuge der
+        Webseitennutzung automatisch Informationen im Rahmen sogenannter
+        „Server-Log Files“. Dies betrifft insbesondere:
+      </p>
+      <ul>
+        <li>IP-Adresse oder Hostname</li>
+        <li>den verwendeten Browser</li>
+        <li>Aufenthaltsdauer auf der Webseite sowie Datum und Uhrzeit</li>
+        <li>aufgerufene Seiten der Webseite</li>
+        <li>Spracheinstellungen und Betriebssystem</li>
+        <li>
+          „Leaving-Page“ (auf welcher URL hat der Benutzer die Webseite
+          verlassen)
+        </li>
+        <li>ISP (Internet Service Provider)</li>
+      </ul>
+      <p>
+        Diese erhobenen Informationen werden nicht personenbezogen verarbeitet
+        oder mit personenbezogenen Daten in Verbindung gebracht.
+      </p>
+      <p>
+        Der Webseitenbetreiber behält es sich vor, im Falle von Bekanntwerden
+        rechtswidriger Tätigkeiten, diese Daten auszuwerten oder zu überprüfen.
+      </p>
+      <h5 class="text-xl lg:text-2xl mb-4 mt-10">
+        Ihre Rechte als Betroffener
+      </h5>
+      <p>
+        Sie als Betroffener haben bezüglich Ihrer Daten, welche bei uns
+        gespeichert sind grundsätzlich ein Recht auf:
+      </p>
+      <ul>
+        <li>Auskunft</li>
+        <li>Löschung der Daten</li>
+        <li>Berichtigung der Daten</li>
+        <li>Übertragbarkeit der Daten</li>
+        <li>Wiederruf und Widerspruch zur Datenverarbeitung</li>
+        <li>Einschränkung</li>
+      </ul>
+      <p>
+        Wenn sie vermuten, dass im Zuge der Verarbeitung Ihrer Daten Verstöße
+        gegen das Datenschutzrecht passiert sind, so haben Sie die Möglichkeit
+        sich bei uns (rosa.madreiter@gmx.at) oder der Datenschutzbehörde zu
+        beschweren.
+      </p>
+      <h5 class="text-xl lg:text-2xl mb-4 mt-10">
+        Sie erreichen uns unter folgenden Kontaktdaten:
+      </h5>
+      <p>
+        <b>Webseitenbetreiber:</b> Rosa Madreiter<br />
+        <b>Telefonnummer:</b> + 43 664 7518 3368<br />
+        <b>Email:</b> rosa.madreiter@gmx.at
+      </p>
+      <p>
+        Quelle: <b><a href="https://www.fairesrecht.at/">fairesRecht.at</a></b>
+      </p>
+    </div>
+    <footer class="mt-72 border-t-2 border-dark p-5 md:p-10">
+      <div class="grid grid-cols-1 sm:grid-cols-3">
+        <div class="text-center sm:text-left">
+          <h3 class="text-xl lg:text-2xl mb-4">Begegnung mit Tier & Natur</h3>
+          <ul class="space-y-1">
+            <li>
+              <p>
+                Realisiert von
+                <a
+                  class="underline underline-offset-2 hover:font-bold"
+                  href="https://lea.etzlinger.at/"
+                  target="_blank"
+                  >Lea Etzlinger</a
+                >
+              </p>
+            </li>
+            <li>
+              <a class="hover:font-bold" href="/src/pages/datenschutz.html"
+                >Datenschutzerklärung</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="justify-self-center text-center mt-10 sm:mt-0">
+          <h3 class="text-xl lg:text-2xl mb-4">Übersicht</h3>
+          <ul class="space-y-1">
+            <li>
+              <a class="font-bold" href="/index.html">Home</a>
+            </li>
+            <li>
+              <a class="hover:font-bold" href="/src/pages/about.html"
+                >Über Uns</a
+              >
+            </li>
+            <li>
+              <a class="hover:font-bold" href="/src/pages/tiere.html"
+                >Unsere Tiere</a
+              >
+            </li>
+            <li>
+              <a class="hover:font-bold" href="/src/pages/angebote.html"
+                >Unsere Angebote</a
+              >
+            </li>
+            <li>
+              <a class="hover:font-bold" href="/src/pages/energetik.html"
+                >Energiearbeit</a
+              >
+            </li>
+            <li>
+              <a class="hover:font-bold" href="/src/pages/produkte.html"
+                >Produkte</a
+              >
+            </li>
+            <li>
+              <a class="hover:font-bold" href="/index.html#contact">Kontakt</a>
+            </li>
+          </ul>
+        </div>
+        <div
+          class="sm:justify-self-end text-center sm:text-right mt-10 sm:mt-0"
+        >
+          <h3 class="text-xl lg:text-2xl mb-4">Kontaktdaten</h3>
+          <ul class="space-y-1">
+            <li>Rosa Madreiter</li>
+            <li>
+              <a
+                class="hover:font-bold"
+                href="https://www.google.com/maps/place/46.754704931028975,14.056692897722112"
+                target="_blank"
+                >Werschling 34 9562 Himmelberg</a
+              >
+            </li>
+            <li>
+              <a
+                class="hover:font-bold"
+                href="tel:+4366475183368"
+                target="_blank"
+                >Tel. + 43 664 7518 3368</a
+              >
+            </li>
+            <li>
+              <a
+                class="hover:font-bold"
+                href="mailto:rosa.madreiter@gmx.at"
+                target="_blank"
+                >rosa.madreiter@gmx.at</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script src="/src/scripts/main.js"></script>
+  </body>
+</html>
