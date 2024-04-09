@@ -21,6 +21,9 @@ export default {
         '128': '32rem',
         '200': '40rem'
       },
+      screens: {
+        '3xl': '1700px'
+      },
     },
   },
   plugins: [],
