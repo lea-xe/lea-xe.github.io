@@ -686,8 +686,8 @@ h1, h2, h3, h5 {
   left: 20rem;
 }
 
-.left-\[28\.5\%\] {
-  left: 28.5%;
+.left-\[35\%\] {
+  left: 35%;
 }
 
 .left-\[45\%\] {
@@ -730,8 +730,8 @@ h1, h2, h3, h5 {
   top: 1.25rem;
 }
 
-.top-\[37\%\] {
-  top: 37%;
+.top-\[40\%\] {
+  top: 40%;
 }
 
 .top-\[60\%\] {
@@ -740,22 +740,6 @@ h1, h2, h3, h5 {
 
 .top-full {
   top: 100%;
-}
-
-.left-\[30\%\] {
-  left: 30%;
-}
-
-.left-\[25\%\] {
-  left: 25%;
-}
-
-.left-\[35\%\] {
-  left: 35%;
-}
-
-.top-\[40\%\] {
-  top: 40%;
 }
 
 .-z-40 {
@@ -816,6 +800,11 @@ h1, h2, h3, h5 {
   margin-right: auto;
 }
 
+.my-10 {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
 .my-16 {
   margin-top: 4rem;
   margin-bottom: 4rem;
@@ -829,6 +818,11 @@ h1, h2, h3, h5 {
 .my-20 {
   margin-top: 5rem;
   margin-bottom: 5rem;
+}
+
+.my-52 {
+  margin-top: 13rem;
+  margin-bottom: 13rem;
 }
 
 .-mb-20 {
@@ -897,6 +891,10 @@ h1, h2, h3, h5 {
 
 .ml-40 {
   margin-left: 10rem;
+}
+
+.ml-5 {
+  margin-left: 1.25rem;
 }
 
 .ml-6 {
@@ -987,6 +985,10 @@ h1, h2, h3, h5 {
   margin-top: 20rem;
 }
 
+.mt-96 {
+  margin-top: 24rem;
+}
+
 .mt-auto {
   margin-top: auto;
 }
@@ -1041,6 +1043,14 @@ h1, h2, h3, h5 {
 
 .h-24 {
   height: 6rem;
+}
+
+.h-28 {
+  height: 7rem;
+}
+
+.h-32 {
+  height: 8rem;
 }
 
 .h-4 {
@@ -1504,6 +1514,11 @@ h1, h2, h3, h5 {
   text-wrap: balance;
 }
 
+.break-normal {
+  overflow-wrap: normal;
+  word-break: normal;
+}
+
 .rounded {
   border-radius: 0.25rem;
 }
@@ -1714,6 +1729,11 @@ h1, h2, h3, h5 {
   padding-right: 2rem;
 }
 
+.py-0 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
 .py-1 {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
@@ -1764,12 +1784,28 @@ h1, h2, h3, h5 {
   padding-bottom: 1.5rem;
 }
 
+.pb-10 {
+  padding-bottom: 2.5rem;
+}
+
 .pr-12 {
   padding-right: 3rem;
 }
 
 .pr-32 {
   padding-right: 8rem;
+}
+
+.ps-\[S\FFFD\FFFD\FFFD\FFFD\FFFD 7\14\FFFD\FFFDQQ\3\FFFD\5\FFFDi\FFFD\12\FFFD\<\FFFDs\FFFD\FFFD\] {
+  padding-inline-start: S�����7��QQ��i��<�s��;
+}
+
+.pt-10 {
+  padding-top: 2.5rem;
+}
+
+.pt-52 {
+  padding-top: 13rem;
 }
 
 .pt-6 {
@@ -1908,6 +1944,10 @@ h1, h2, h3, h5 {
   text-decoration-line: underline;
 }
 
+.underline-offset-1 {
+  text-underline-offset: 1px;
+}
+
 .underline-offset-2 {
   text-underline-offset: 2px;
 }
@@ -2000,6 +2040,14 @@ h1, h2, h3, h5 {
   m: UV|m��;
 }
 
+.\[m\:\FFFD\`\=\FFFDr\FFFD\)\15\FFFDh\2\16ZmM\FFFDu\@\FFFD\+V\FFFD\6\FFFD\5E9\15\FFFD\&\FFFD\FFFD 7\FFFD-U\FFFD\FFFD\FFFD\FFFDn\FFFDv\A36AP\E\FFFD\] {
+  m: �`=�r�)�hZmM�u@�+V��ש�&��7�-U����n�vꍪP�;
+}
+
+.\[me\:\%\FFFD\=\FFFD\FFFD\16\1C\FFFDM\] {
+  me: %�=���M;
+}
+
 .\[n\:\7F\FFFD\FFFDGz\FFFD 09\14\13v\FFFDZ\FFFD\3\FFFDU\FFFD\FFFD\FFFD\] {
   n: ��Gz�09v�Z��U���;
 }
@@ -2014,6 +2062,10 @@ h1, h2, h3, h5 {
 
 .\[u\:\FFFDx\FFFD\FFFD\FFFD\FFFD\FFFD\2c \/\>\16x\FFFD D\FFFD\17\FFFD\FFFD\8\FFFD\FFFDj\7F\1Bi\FFFD\1C1\|I\FFFD\0\17\/\FFFD\?\FFFD\7F\2CF\FFFD\?\FFFD\FFFD\13\FFFD\FFFD\0\FFFD\7F\FFFDx\] {
   u: �x�����,/>x�D�����ji�ǁ|I� /�?�ˏ�?���� ��x;
+}
+
+.\[y\:\FFFD\FFFD\FFFD\1E\FFFD 0\FFFD\] {
+  y: ����0�;
 }
 
 /* eb-garamond-regular - latin */
@@ -2178,6 +2230,11 @@ h1, h2, h3, h5 {
     margin-right: auto;
   }
 
+  .md\:my-20 {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+
   .md\:mr-20 {
     margin-right: 5rem;
   }
@@ -2202,10 +2259,6 @@ h1, h2, h3, h5 {
     margin-top: 2rem;
   }
 
-  .md\:block {
-    display: block;
-  }
-
   .md\:grid {
     display: grid;
   }
@@ -2214,12 +2267,12 @@ h1, h2, h3, h5 {
     height: 32rem;
   }
 
-  .md\:h-24 {
-    height: 6rem;
+  .md\:h-28 {
+    height: 7rem;
   }
 
-  .md\:w-24 {
-    width: 6rem;
+  .md\:w-28 {
+    width: 7rem;
   }
 
   .md\:grid-cols-2 {
@@ -2288,8 +2341,22 @@ h1, h2, h3, h5 {
     padding-right: 2.5rem;
   }
 
+  .md\:py-0 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  .md\:pb-10 {
+    padding-bottom: 2.5rem;
+  }
+
   .md\:text-lg {
     font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
+  .md\:text-xl {
+    font-size: 1.25rem;
     line-height: 1.75rem;
   }
 }
@@ -2314,11 +2381,6 @@ h1, h2, h3, h5 {
   .lg\:mx-auto {
     margin-left: auto;
     margin-right: auto;
-  }
-
-  .lg\:my-16 {
-    margin-top: 4rem;
-    margin-bottom: 4rem;
   }
 
   .lg\:my-20 {
@@ -2356,6 +2418,10 @@ h1, h2, h3, h5 {
 
   .lg\:mt-72 {
     margin-top: 18rem;
+  }
+
+  .lg\:mt-96 {
+    margin-top: 24rem;
   }
 
   .lg\:block {
