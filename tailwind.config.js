@@ -15,7 +15,7 @@ export default {
       },
       fontFamily: {
         'primary': ['"EB Garamond"', 'system-ui', 'sans-serif'],
-        'secondary': ['Robika', 'serif'],
+        'secondary': ['"Franzo Bold"', 'serif'],
       },
       spacing: {
         '128': '32rem',

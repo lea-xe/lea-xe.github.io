@@ -451,7 +451,8 @@ html {
 }
 
 h1, h2, h3, h5 {
-  font-family: "Robika";
+  font-family: 'Guonia', sans-serif;
+  font-weight: 500;
 }
 
 *, ::before, ::after {
@@ -786,8 +787,16 @@ h1, h2, h3, h5 {
   grid-column-end: 13;
 }
 
+.m-1 {
+  margin: 0.25rem;
+}
+
 .m-2 {
   margin: 0.5rem;
+}
+
+.m-7 {
+  margin: 1.75rem;
 }
 
 .mx-10 {
@@ -851,6 +860,10 @@ h1, h2, h3, h5 {
 
 .mb-1 {
   margin-bottom: 0.25rem;
+}
+
+.mb-10 {
+  margin-bottom: 2.5rem;
 }
 
 .mb-2 {
@@ -1029,6 +1042,10 @@ h1, h2, h3, h5 {
   height: 32rem;
 }
 
+.h-14 {
+  height: 3.5rem;
+}
+
 .h-16 {
   height: 4rem;
 }
@@ -1091,6 +1108,10 @@ h1, h2, h3, h5 {
 
 .h-\[50rem\] {
   height: 50rem;
+}
+
+.h-\[\FFFDm\FFFD\FFFD 4a\FFFD\] {
+  height: �m��4a�;
 }
 
 .h-auto {
@@ -1466,6 +1487,10 @@ h1, h2, h3, h5 {
   margin-bottom: calc(5rem * var(--tw-space-y-reverse));
 }
 
+.self-start {
+  align-self: flex-start;
+}
+
 .self-end {
   align-self: flex-end;
 }
@@ -1699,6 +1724,10 @@ h1, h2, h3, h5 {
   padding: 1.25rem;
 }
 
+.p-\[\FFFDs\4\] {
+  padding: �s;
+}
+
 .px-0 {
   padding-left: 0px;
   padding-right: 0px;
@@ -1825,7 +1854,7 @@ h1, h2, h3, h5 {
 }
 
 .font-secondary {
-  font-family: Robika, serif;
+  font-family: "Franzo Bold", serif;
 }
 
 .text-2xl {
@@ -1876,6 +1905,11 @@ h1, h2, h3, h5 {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
 .font-bold {
@@ -2036,6 +2070,10 @@ h1, h2, h3, h5 {
   gr: ���;
 }
 
+.\[i\:\FFFD\FFFD B\/\6AE\<\FFFD\>\] {
+  i: ��B/ڮ<�>;
+}
+
 .\[m\:UV\|m\FFFD\FFFD\] {
   m: UV|m��;
 }
@@ -2052,6 +2090,14 @@ h1, h2, h3, h5 {
   n: ��Gz�09v�Z��U���;
 }
 
+.\[o8\:u\FFFDT\12\FFFD\131\FFFD\4BA\] {
+  o8: u�T�ı�Һ;
+}
+
+.\[o\:l\FFFD\*9\FFFD\FFFD\FFFDT6\FFFD\FFFD\0\FFFDW\$G\483R\FFFD\|H\*\FFFDn\FFFDo\#\FFFD\FFFD\FFFD\795\FFFDlC\FFFD\FFFD 4L\FFFDS\7\FFFD-\FFFD\FFFDg\\\;c5Y\FFFD\FFFD\] {
+  o: l�*9���T6�� �W$G҃R�|H*�n�o#���ޕ�lC��4L�S�-��g\;c5Y��;
+}
+
 .\[q2\:R\FFFDh_\] {
   q2: R�h;
 }
@@ -2060,20 +2106,20 @@ h1, h2, h3, h5 {
   s: ��X��� &�;
 }
 
+.\[u\:\\\FFFD 2\8\378\FFFD\FFFD\FFFD\] {
+  u: \�2͸���;
+}
+
 .\[u\:\FFFDx\FFFD\FFFD\FFFD\FFFD\FFFD\2c \/\>\16x\FFFD D\FFFD\17\FFFD\FFFD\8\FFFD\FFFDj\7F\1Bi\FFFD\1C1\|I\FFFD\0\17\/\FFFD\?\FFFD\7F\2CF\FFFD\?\FFFD\FFFD\13\FFFD\FFFD\0\FFFD\7F\FFFDx\] {
   u: �x�����,/>x�D�����ji�ǁ|I� /�?�ˏ�?���� ��x;
 }
 
+.\[v\:\FFFDR\] {
+  v: �R;
+}
+
 .\[y\:\FFFD\FFFD\FFFD\1E\FFFD 0\FFFD\] {
   y: ����0�;
-}
-
-.\[i\:\FFFD\FFFD B\/\6AE\<\FFFD\>\] {
-  i: ��B/ڮ<�>;
-}
-
-.\[o\:l\FFFD\*9\FFFD\FFFD\FFFDT6\FFFD\FFFD\0\FFFDW\$G\483R\FFFD\|H\*\FFFDn\FFFDo\#\FFFD\FFFD\FFFD\795\FFFDlC\FFFD\FFFD 4L\FFFDS\7\FFFD-\FFFD\FFFDg\\\;c5Y\FFFD\FFFD\] {
-  o: l�*9���T6�� �W$G҃R�|H*�n�o#���ޕ�lC��4L�S�-��g\;c5Y��;
 }
 
 /* eb-garamond-regular - latin */
@@ -2102,20 +2148,6 @@ h1, h2, h3, h5 {
   font-weight: 600;
 
   src: url('/src/assets/fonts/eb-garamond-v27-latin-600.woff2') format('woff2');
-}
-
-/* eb-garamond-600 - latin */
-
-@font-face {
-  font-display: swap;
-
-  font-family: 'Robika';
-
-  font-style: normal;
-
-  font-weight: 600;
-
-  src: url('/src/assets/fonts/RobikaRegular-EDv9.otf') format("opentype");
 }
 
 #scroll-item {
@@ -2241,6 +2273,10 @@ h1, h2, h3, h5 {
   .md\:my-20 {
     margin-top: 5rem;
     margin-bottom: 5rem;
+  }
+
+  .md\:mb-10 {
+    margin-bottom: 2.5rem;
   }
 
   .md\:mr-20 {
