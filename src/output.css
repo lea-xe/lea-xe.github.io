@@ -677,6 +677,10 @@ video {
   height: 24rem;
 }
 
+.h-128 {
+  height: 32rem;
+}
+
 .min-h-screen {
   min-height: 100vh;
 }
@@ -779,6 +783,10 @@ video {
 
 .gap-20 {
   gap: 5rem;
+}
+
+.gap-8 {
+  gap: 2rem;
 }
 
 .space-x-10 > :not([hidden]) ~ :not([hidden]) {
@@ -903,6 +911,11 @@ video {
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
 }
 
 .font-normal {
@@ -1395,6 +1408,10 @@ a {
     width: 16rem;
   }
 
+  .md\:w-80 {
+    width: 20rem;
+  }
+
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -1481,6 +1498,10 @@ a {
 
   .lg\:w-\[25vw\] {
     width: 25vw;
+  }
+
+  .lg\:w-2\/3 {
+    width: 66.666667%;
   }
 
   .lg\:max-w-full {
