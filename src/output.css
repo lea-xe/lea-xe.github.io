@@ -983,8 +983,6 @@ video {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* inter-tight-300 - latin */
-
 @font-face {
   font-display: swap;
 
@@ -1001,38 +999,6 @@ video {
   /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
-@font-face {
-  font-display: swap;
-
-  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-
-  font-family: 'Inter Tight';
-
-  font-style: normal;
-
-  font-weight: 300;
-
-  src: url('/src/fonts/inter-tight-v7-latin-300.woff2') format('woff2');
-
-  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
-
-@font-face {
-  font-display: swap;
-
-  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-
-  font-family: 'Brother';
-
-  font-style: normal;
-
-  font-weight: normal;
-
-  src: url('/src/fonts/ss-brother.otf') format('opentype');
-
-  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
-
 html {
   scroll-behavior: smooth;
 }
@@ -1045,7 +1011,7 @@ body {
 
 h1 {
   font-weight: normal;
-  font-family: 'Brother';
+  font-family: 'Kaine';
   font-size: 8vw;
 }
 
@@ -1134,12 +1100,12 @@ a {
 }
 
 .navbar__menu-item {
-  font-family: "Brother";
-  line-height: 1.13em;
+  font-family: "Kaine";
+  line-height: 0.9em;
   text-transform: uppercase;
-  font-size: 10vw;
+  font-size: 8vw;
   padding: 60px 20px;
-  font-weight: normal;
+  font-weight: 700;
   width: 300px;
   height: 100px;
   position: relative;
@@ -1147,12 +1113,12 @@ a {
 }
 
 .navbar__menu-item-2 {
-  font-family: "Brother";
-  line-height: 1.13em;
+  font-family: "Kaine";
+  line-height: 0.9em;
   text-transform: uppercase;
-  font-size: 10vw;
+  font-size: 8vw;
   padding: 60px 20px;
-  font-weight: normal;
+  font-weight: 700;
   width: 300px;
   height: 100px;
   position: relative;
